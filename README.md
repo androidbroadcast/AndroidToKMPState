@@ -18,8 +18,9 @@ _KMP support - support Kotlin Multiplatform with more than one target_
 | [Java I/O](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html), [Java NIO](https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html) | ❌ | | [OkIO](https://github.com/square/okio), [Kotlin stdlib](https://kotlinlang.org/api/latest/jvm/stdlib/), [KotlinX I/O](https://github.com/Kotlin/kotlinx-io) | |
 | [Jetpack Paging](https://developer.android.com/jetpack/androidx/releases/paging) | ✅ | | - | |
 | [Jetpack Collections](https://developer.android.com/jetpack/androidx/releases/collection) | ✅ | | [Kotlin stdlib](https://kotlinlang.org/api/latest/jvm/stdlib/) | |
-| [Jetpack Viewmodel](https://developer.android.com/jetpack/androidx/releases/lifecycle) | ✅ | | - | |
-| [Jetpack Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle) | ✅ | | - | |
+| [Jetpack Viewmodel](https://developer.android.com/jetpack/androidx/releases/lifecycle) | ✅ | | - | [Using Common ViewModel](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-viewmodel.html#using-viewmodel-in-common-code) |
+| [Jetpack Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle) | ✅ | | - | [Using Common Lifecycle](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-lifecycle.html) |
 | [Jetpack Livedata](https://developer.android.com/jetpack/androidx/releases/lifecycle) | ❌ | | [StateFlow from KotlinX Coroutines](https://github.com/Kotlin/kotlinx.coroutines), [Reaktive](https://github.com/badoo/Reaktive) | |
-| [Jetpack Compose](https://developer.android.com/develop/ui/compose) | ✅ | | [JetBrains Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) | |
+| [Jetpack Compose](https://developer.android.com/develop/ui/compose) | [JetBrains Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) | Android, Desktop JVM, iOS (Beta), WASM (Alpha) | - | |
 | [Android Resources](https://developer.android.com/guide/topics/resources/providing-resources) | ❌ | | [Compose Multiplatform Resources](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-images-resources.html) | |
+| Jetpack Compose Navigation | 2.7.0 | Android, iOS, JVM | [Voyager](https://voyager.adriel.cafe/), [Decompose](https://arkivanov.github.io/Decompose/), [Appyx](https://bumble-tech.github.io/appyx/), [PreCompose](https://tlaster.github.io/PreCompose/) | [Using Common Navigation](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-navigation-routing.html) |
