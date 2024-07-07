@@ -20,4 +20,4 @@ State of popular libraries/APIs in Android apps and their KMP support state
 | [Jetpack Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle) | ✅ | - |
 | [Jetpack Livedata](https://developer.android.com/jetpack/androidx/releases/lifecycle) | ❌ | [StateFlow из KotlinX Coroutines](https://github.com/Kotlin/kotlinx.coroutines), [Reaktive](https://github.com/badoo/Reaktive) |
 | [Jetpack Compose](https://developer.android.com/develop/ui/compose) | ✅ | [JetBrains Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) |
-| [Android Resources](https://developer.android.com/guide/topics/resources/providing-resources) | | [Compose Multiplatform Resources](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-images-resources.html) |
+| [Android Resources](https://developer.android.com/guide/topics/resources/providing-resources) | ❌ | [Compose Multiplatform Resources](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-images-resources.html) |
