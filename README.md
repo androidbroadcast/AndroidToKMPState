@@ -20,14 +20,17 @@ _KMP support - support Kotlin Multiplatform with more than one target_
 
 ## JAVA libraries
 
-| Library/Techology | Has KMP support | Supported Targets | KMP Alternatives | Useful Links |
-| ----------------- | --------------- | ----------------- | ---------------- | ------------ |
-| [Retrofit](https://github.com/square/retrofit) | ❌ | | [Ktorfit](https://github.com/Foso/Ktorfit) | |
-| [OkHttp](https://github.com/square/okhttp) | ❌ | | [Ktor Client](https://ktor.io/docs/welcome.html) | |
-| [RxJava](https://github.com/ReactiveX/RxJava) | ❌ | | [Reaktive](https://github.com/badoo/Reaktive), [KotlinX Coroutines + Flow](https://github.com/Kotlin/kotlinx.coroutines) | |
-| [APT](https://docs.oracle.com/javase%2F8%2Fdocs%2Fapi%2F%2F/javax/annotation/processing/Processor.html)/[KAPT](https://kotlinlang.org/docs/kapt.html) | ❌ | | [KSP](https://github.com/google/ksp) | |
-| [Java Dynamic Proxy](https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/proxy.html) | ❌ | | Code generation with KSP/Gradle | |
-| [Java Date](https://developer.android.com/reference/java/util/Date) | ❌ | | [KotlinX-datetime](https://github.com/Kotlin/kotlinx-datetime) | |
-| [GSON](https://github.com/google/gson) | ❌ | | [KotlinX Serialization](https://github.com/Kotlin/kotlinx.serialization) | |
-| [Java I/O](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html), [Java NIO](https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html) | ❌ | | [OkIO]
-| [Dagger/Hilt](https://dagger.dev/) | ❌ | | [Koin](https://github.com/InsertKoinIO/koin), [Kodein](https://github.com/kosi-libs/Kodein), Manual DI, etc. | |
+All libraries that has been writtent in Java or Kotlin for JVM and can be used only on JVM or Android. They have no planned KMP support or possibility to do it in future.
+Projects that use libraries/APIs from the table below must be replaced to use in KMP projects.
+
+| Library/Techology | KMP Alternatives | Useful Links |
+| ----------------- | ---------------- | ------------ |
+| [Retrofit](https://github.com/square/retrofit) | [Ktorfit](https://github.com/Foso/Ktorfit) | |
+| [OkHttp](https://github.com/square/okhttp) | [Ktor Client](https://ktor.io/docs/welcome.html) | |
+| [RxJava](https://github.com/ReactiveX/RxJava) | [Reaktive](https://github.com/badoo/Reaktive), [KotlinX Coroutines + Flow](https://github.com/Kotlin/kotlinx.coroutines) | |
+| [APT](https://docs.oracle.com/javase%2F8%2Fdocs%2Fapi%2F%2F/javax/annotation/processing/Processor.html)/[KAPT](https://kotlinlang.org/docs/kapt.html) | [KSP](https://github.com/google/ksp) | |
+| [Java Dynamic Proxy](https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/proxy.html) | Code generation with KSP/Gradle | |
+| [Java Date](https://developer.android.com/reference/java/util/Date) | [KotlinX-datetime](https://github.com/Kotlin/kotlinx-datetime) | |
+| [GSON](https://github.com/google/gson) | [KotlinX Serialization](https://github.com/Kotlin/kotlinx.serialization) | |
+| [Java I/O](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html), [Java NIO](https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html) | [OkIO]
+| [Dagger/Hilt](https://dagger.dev/) | [Koin](https://github.com/InsertKoinIO/koin), [Kodein](https://github.com/kosi-libs/Kodein), Manual DI, etc. | |
