@@ -5,7 +5,7 @@ State of popular libraries/APIs in Android apps and their KMP support state
 | ----------------- | --------------- | ---------------- |
 | [Retrofit](https://github.com/square/retrofit) | ❌ | [Ktorfit](https://github.com/Foso/Ktorfit) |
 | [OkHttp](https://github.com/square/okhttp) | ❌ | [Ktor Client](https://ktor.io/docs/welcome.html) |
-| [Dagger/Hilt](https://dagger.dev/) | ❌ | [Koin](https://github.com/InsertKoinIO/koin), [Kodein](https://github.com/kosi-libs/Kodein), Manual DI и др. |
+| [Dagger/Hilt](https://dagger.dev/) | ❌ | [Koin](https://github.com/InsertKoinIO/koin), [Kodein](https://github.com/kosi-libs/Kodein), Manual DI, etc. |
 | [Jetpack Room](https://developer.android.com/jetpack/androidx/releases/room) | 2.7 и выше | [SQLDelight](https://github.com/cashapp/sqldelight) |
 | [RxJava](https://github.com/ReactiveX/RxJava) | ❌ | [Reaktive](https://github.com/badoo/Reaktive), [KotlinX Coroutines + Flow](https://github.com/Kotlin/kotlinx.coroutines) |
 | [APT](https://docs.oracle.com/javase%2F8%2Fdocs%2Fapi%2F%2F/javax/annotation/processing/Processor.html)/[KAPT](https://kotlinlang.org/docs/kapt.html) | ❌ | [KSP](https://github.com/google/ksp) |
