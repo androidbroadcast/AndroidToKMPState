@@ -17,6 +17,11 @@ _KMP support - support Kotlin Multiplatform with more than one target_
 | [Jetpack Compose](https://developer.android.com/develop/ui/compose) | [JetBrains Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) | Android, Desktop JVM, iOS (Beta), WASM (Alpha) | - | |
 | [Android Resources](https://developer.android.com/guide/topics/resources/providing-resources) | ❌ | | [Compose Multiplatform Resources](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-images-resources.html) | |
 | [Jetpack Compose Navigation](https://developer.android.com/develop/ui/compose/navigation) | [Jetbrains Compose Navigation](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-navigation-routing.html#setup) | Android, iOS, JVM | [Voyager](https://voyager.adriel.cafe/), [Decompose](https://arkivanov.github.io/Decompose/), [Appyx](https://bumble-tech.github.io/appyx/), [PreCompose](https://tlaster.github.io/PreCompose/) | [Using Common Navigation](https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-navigation-routing.html) |
+| [Glide](https://github.com/bumptech/glide) | ❌ | - | [CoIL](https://github.com/coil-kt/coil) | ❌ |
+| [CoIL](https://github.com/coil-kt/coil) | 3.0 | Android, JVM, iOS, macOS, JS, WASM | Coil | [Coil KMP Migration](https://coil-kt.github.io/coil/upgrading_to_coil3/#multiplatform) |
+| Shared Preferences | ❌ | - | Jetpack DataStore | - |
+| Jetpack DataStore | 1.1.0 | Android, iOS, JVM, Linux, macOS, JVM| - | - |
+| Build Config (AGP feature) | - | - | [BuildKonfig](https://github.com/yshrsmz/BuildKonfig) | - |
 
 ## JAVA libraries
 
