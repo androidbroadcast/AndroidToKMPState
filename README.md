@@ -37,5 +37,5 @@ Projects that use libraries/APIs from the table below must be replaced to use in
 | [Java Dynamic Proxy](https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/proxy.html) | Code generation with KSP/Gradle | |
 | [Java Date](https://developer.android.com/reference/java/util/Date) | [KotlinX-datetime](https://github.com/Kotlin/kotlinx-datetime) | |
 | [GSON](https://github.com/google/gson) | [KotlinX Serialization](https://github.com/Kotlin/kotlinx.serialization) | |
-| [Java I/O](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html), [Java NIO](https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html) | [OkIO]
+| [Java I/O](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html), [Java NIO](https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html) | [OkIO](https://github.com/square/okio)
 | [Dagger/Hilt](https://dagger.dev/) | [Koin](https://github.com/InsertKoinIO/koin), [Kodein](https://github.com/kosi-libs/Kodein), Manual DI, etc. | |
